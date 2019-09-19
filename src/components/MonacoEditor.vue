@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3 class="">Wellcome to VUE MONACO EDITOR demo</h3>
+    <h3 class="monaco-title">Wellcome to VUE MONACO EDITOR</h3>
     <div class="monaco-box" id="monacoContainer"></div>
   </div>
 </template>
@@ -29,6 +29,9 @@
 </script>
 
 <style>
+  .monaco-title {
+    text-align: center;
+  }
   .monaco-box {
     width: 680px;
     height: 400px;
